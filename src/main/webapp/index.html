@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Start Page</title>
+</head>
+<body>
+	Hello World!
+	<form action="SimpleServletController" method="get">
+		<input type="hidden" name="action" value="view_books"> <input
+			type="submit" value="new books">
+	</form>
+
+	Add book
+	<form action="SimpleServletController" method="get">
+
+		<input type="hidden" name="action" value="2"/> 
+		<input type="text" name="title" required /> 
+		<input type="text" name="author" required />
+		<input type="text" name="year" required />
+		
+		<input type="submit" value="add book"/>
+
+	</form>
+</body>
+</html>
